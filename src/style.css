@@ -1319,3 +1319,282 @@ button:focus {
     padding: 12px !important;
   }
 }
+
+/* Research Section Styles */
+.research-section {
+  padding-top: 10rem !important;
+  padding-bottom: 5rem !important;
+  background: var(--section-background-color) !important;
+  min-height: 100vh !important;
+}
+
+.research-cards-row {
+  margin-top: 2rem !important;
+}
+
+.research-card-col {
+  margin-bottom: 2rem !important;
+}
+
+.research-card-view {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+  border: 1px solid rgba(178, 121, 216, 0.3) !important;
+}
+
+.research-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3) !important;
+  border: 1px solid rgba(178, 121, 216, 0.6) !important;
+}
+
+.research-card-view .card-body {
+  padding: 1.5rem !important;
+}
+
+.research-card-view .card-title {
+  color: #c770f0 !important;
+  font-size: 1.2rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.research-card-view .card-text {
+  color: rgb(155, 126, 172) !important;
+  font-size: 0.9rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.research-badges {
+  margin: 1rem 0 !important;
+}
+
+.research-actions {
+  display: flex !important;
+  gap: 0.5rem !important;
+  margin-top: 1rem !important;
+}
+
+.research-action-btn {
+  flex: 1 !important;
+  font-size: 0.8rem !important;
+  padding: 0.4rem 0.8rem !important;
+  border-radius: 20px !important;
+  transition: all 0.3s ease !important;
+}
+
+.research-action-btn:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Research Detail Modal Styles */
+.research-detail-modal .modal-content {
+  background: linear-gradient(135deg, #1b1a2e 0%, #16213e 100%) !important;
+  color: white !important;
+  border: 1px solid rgba(178, 121, 216, 0.3) !important;
+}
+
+.research-detail-header {
+  border-bottom: 1px solid rgba(178, 121, 216, 0.3) !important;
+  background: rgba(27, 26, 46, 0.8) !important;
+}
+
+.research-detail-title {
+  color: #c770f0 !important;
+  font-weight: bold !important;
+  font-size: 1.3rem !important;
+}
+
+.research-detail-body {
+  padding: 2rem !important;
+}
+
+.research-detail-content h5 {
+  color: #c770f0 !important;
+  margin-top: 1.5rem !important;
+  margin-bottom: 1rem !important;
+  font-weight: bold !important;
+}
+
+.research-detail-content h5:first-child {
+  margin-top: 0 !important;
+}
+
+.research-detail-content p {
+  color: rgb(155, 126, 172) !important;
+  line-height: 1.6 !important;
+}
+
+.research-meta p {
+  margin-bottom: 0.5rem !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+}
+
+.research-meta strong {
+  color: #c770f0 !important;
+  min-width: 80px !important;
+}
+
+.keyword-badges {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.5rem !important;
+}
+
+.methodology-list, .achievements-list {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+
+.methodology-list li, .achievements-list li {
+  color: rgb(155, 126, 172) !important;
+  margin-bottom: 0.5rem !important;
+  padding-left: 1.5rem !important;
+  position: relative !important;
+}
+
+.methodology-list li:before {
+  content: "▸" !important;
+  color: #c770f0 !important;
+  position: absolute !important;
+  left: 0 !important;
+  font-weight: bold !important;
+}
+
+.achievements-list li {
+  font-weight: 500 !important;
+}
+
+.result-item {
+  background: rgba(178, 121, 216, 0.1) !important;
+  padding: 1rem !important;
+  border-radius: 8px !important;
+  margin-bottom: 1rem !important;
+  border: 1px solid rgba(178, 121, 216, 0.2) !important;
+}
+
+.result-item strong {
+  color: #c770f0 !important;
+}
+
+.research-detail-footer {
+  border-top: 1px solid rgba(178, 121, 216, 0.3) !important;
+  background: rgba(27, 26, 46, 0.8) !important;
+}
+
+/* PDF Viewer Modal Styles */
+.pdf-viewer-modal .modal-content {
+  background: linear-gradient(135deg, #1b1a2e 0%, #16213e 100%) !important;
+  color: white !important;
+  border: 1px solid rgba(178, 121, 216, 0.3) !important;
+}
+
+.pdf-viewer-header {
+  border-bottom: 1px solid rgba(178, 121, 216, 0.3) !important;
+  background: rgba(27, 26, 46, 0.8) !important;
+}
+
+.pdf-viewer-title {
+  color: #c770f0 !important;
+  font-weight: bold !important;
+}
+
+.pdf-viewer-body {
+  padding: 1.5rem !important;
+  text-align: center !important;
+}
+
+.pdf-controls {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 1rem !important;
+}
+
+.pdf-page-info {
+  color: rgb(155, 126, 172) !important;
+  font-weight: 500 !important;
+  min-width: 120px !important;
+}
+
+.pdf-container {
+  display: flex !important;
+  justify-content: center !important;
+  margin-top: 1rem !important;
+}
+
+.pdf-container .react-pdf__Document {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+}
+
+.pdf-container .react-pdf__Page {
+  margin: 0 !important;
+}
+
+.pdf-container .react-pdf__Page__canvas {
+  border-radius: 8px !important;
+}
+
+.pdf-viewer-footer {
+  border-top: 1px solid rgba(178, 121, 216, 0.3) !important;
+  background: rgba(27, 26, 46, 0.8) !important;
+}
+
+/* Responsive Design for Research */
+@media (max-width: 768px) {
+  .research-card-view .card-body {
+    padding: 1rem !important;
+  }
+
+  .research-card-view .card-title {
+    font-size: 1rem !important;
+  }
+
+  .research-actions {
+    flex-direction: column !important;
+  }
+
+  .research-action-btn {
+    width: 100% !important;
+  }
+
+  .research-detail-body {
+    padding: 1rem !important;
+  }
+
+  .research-detail-title {
+    font-size: 1.1rem !important;
+  }
+
+  .research-meta p {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.2rem !important;
+  }
+
+  .research-meta strong {
+    min-width: auto !important;
+  }
+
+  .pdf-viewer-body {
+    padding: 1rem !important;
+  }
+
+  .pdf-controls {
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+  }
+
+  .pdf-page-info {
+    min-width: auto !important;
+  }
+}
