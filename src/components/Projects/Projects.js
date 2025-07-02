@@ -42,6 +42,38 @@ function Projects() {
         "Batch processing for multiple books",
         "Statistical analysis of location mentions"
       ],
+      workflow: [
+        {
+          step: 1,
+          title: "Arabic Text Processing",
+          description: "Input Arabic literary text and preprocess it for location extraction using CAMeL-Tools",
+          screenshot: {
+            src: map,
+            alt: "Arabic Text Processing",
+            caption: "Advanced NLP processing pipeline for Arabic text analysis"
+          }
+        },
+        {
+          step: 2,
+          title: "Location Entity Recognition",
+          description: "Extract geographical locations using named entity recognition techniques",
+          screenshot: {
+            src: map,
+            alt: "Location Extraction",
+            caption: "AI-powered location identification from Arabic literature"
+          }
+        },
+        {
+          step: 3,
+          title: "Geocoding & Mapping",
+          description: "Convert location names to coordinates and create interactive visualizations",
+          screenshot: {
+            src: map,
+            alt: "Interactive Map Visualization",
+            caption: "Beautiful interactive maps showing extracted locations from Arabic books"
+          }
+        }
+      ],
       achievements: [
         "📖 Processed 100+ Arabic literary works",
         "🗺️ Mapped 10,000+ unique locations",
@@ -103,6 +135,38 @@ function Projects() {
         "Dynamic layout adjustment",
         "Bookmarks and favorites system",
       ],
+      workflow: [
+        {
+          step: 1,
+          title: "App Launch & Setup",
+          description: "Launch SplitView and configure your preferred web applications for multitasking",
+          screenshot: {
+            src: split_view,
+            alt: "SplitView App Launch",
+            caption: "Clean app interface with easy setup for multiple web applications"
+          }
+        },
+        {
+          step: 2,
+          title: "Split-Screen Configuration",
+          description: "Choose from various layout options to arrange up to 6 web apps simultaneously",
+          screenshot: {
+            src: split_view,
+            alt: "Split-Screen Layout",
+            caption: "Flexible layout system supporting multiple web apps in split-screen mode"
+          }
+        },
+        {
+          step: 3,
+          title: "Gesture Navigation",
+          description: "Use intuitive gestures to switch between apps and adjust layouts dynamically",
+          screenshot: {
+            src: split_view,
+            alt: "Gesture Controls",
+            caption: "Smooth gesture-based navigation for seamless multitasking experience"
+          }
+        }
+      ],
       achievements: [
         "📱 Featured in App Store 'New Apps We Love'",
         "⭐ 4.8/5 star rating with 1000+ reviews",
@@ -134,6 +198,38 @@ function Projects() {
         "Multi-language support (Arabic/English)",
         "Community forum and chat",
         "Study schedule planner"
+      ],
+      workflow: [
+        {
+          step: 1,
+          title: "User Registration & Setup",
+          description: "Students create accounts and select their grade level and subjects",
+          screenshot: {
+            src: student_resources,
+            alt: "Student Registration",
+            caption: "Easy onboarding process for Syrian students with curriculum selection"
+          }
+        },
+        {
+          step: 2,
+          title: "Resource Discovery",
+          description: "Browse comprehensive educational materials including textbooks, videos, and practice tests",
+          screenshot: {
+            src: student_resources,
+            alt: "Resource Library",
+            caption: "Extensive library of Syrian curriculum-aligned educational resources"
+          }
+        },
+        {
+          step: 3,
+          title: "Progress Tracking",
+          description: "Monitor learning progress with analytics and interactive quizzes",
+          screenshot: {
+            src: student_resources,
+            alt: "Progress Dashboard",
+            caption: "Comprehensive progress tracking and performance analytics"
+          }
+        }
       ],
       achievements: [
         "🎓 Used by 5,000+ Syrian students",

@@ -17,22 +17,18 @@ const tawjeehaiProject = {
     "📱 RTL Layout Support for Arabic Text and Layout Direction",
     "🎨 Interactive Neural Network Animations and Visualizations",
     "✨ Dynamic Particle Background Effects using tsparticles",
-    "📧 Functional Contact Form with Email Notifications",
     "📱 Mobile-First Responsive Design for All Devices",
     "🎯 Modern UI Built with shadcn/ui Components",
-    "🛡️ Full TypeScript Implementation Across Frontend and Backend",
-    "⚡ Server State Management with React Query",
-    "🔧 API Validation with Zod Schema Validation"
   ],
   workflow: [
     {
       step: 1,
-      title: "Bilingual Content Management",
-      description: "Implementation of i18next for seamless Arabic-English language switching with RTL layout support",
+      title: "Modern AI Service Showcase",
+      description: "Professional presentation of AI consulting services with interactive animations and engaging visual elements",
       screenshot: {
         src: tawjeehai_main,
-        alt: "TawjeehAI Bilingual Interface",
-        caption: "Seamless language switching between Arabic and English with proper RTL layout implementation"
+        alt: "TawjeehAI Service Showcase",
+        caption: "Modern AI service presentation with interactive elements and professional design"
       }
     },
     {
@@ -58,11 +54,8 @@ const tawjeehaiProject = {
   ],
   keyHighlights: [
     "🏆 Full-stack TypeScript architecture with modern development practices",
-    "🌍 Complete bilingual support with RTL layout for Arabic content",
     "🎨 Interactive animations and particle effects for engaging user experience",
-    "📧 Functional contact system with email notifications",
     "📱 Mobile-first responsive design that works on all devices",
-    "🛡️ Type-safe development with comprehensive validation",
   ],
   screenshots: [
     {
