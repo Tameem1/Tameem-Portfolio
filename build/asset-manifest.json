@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.102661a1.css",
-    "main.js": "/static/js/main.b51c5175.js",
+    "main.css": "/static/css/main.07c35cb5.css",
+    "main.js": "/static/js/main.7534eb3d.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/map.png": "/static/media/map.79ea6f5bfc25ca5d572b.png",
+    "static/media/tawjeeh-main.png": "/static/media/tawjeeh-main.eef5e952268e791eb671.png",
     "static/media/emotion.png": "/static/media/emotion.eabfc16e7a146ab15778.png",
     "static/media/suicide.png": "/static/media/suicide.9c86cd7138a398c45fa5.png",
     "static/media/readme-img.png": "/static/media/readme-img.c04c3356633c08cfbde9.png",
     "static/media/car-dashboard.png": "/static/media/car-dashboard.18ee9c1698ede80302f8.png",
     "static/media/car-trip-discovery.png": "/static/media/car-trip-discovery.18ee9c1698ede80302f8.png",
+    "static/media/mart-login.png": "/static/media/mart-login.82f3e6eb0f713b9a6375.png",
+    "static/media/tawjeeh4.png": "/static/media/tawjeeh4.a35e49b2496b4e07ccce.png",
     "static/media/appointment-admin-dashboard.png": "/static/media/appointment-admin-dashboard.a7ba7c0f7931fc1e750f.png",
+    "static/media/tawjeeh3.png": "/static/media/tawjeeh3.35fc00b1c051f09e2323.png",
     "static/media/appointment-teacher.png": "/static/media/appointment-teacher.1285fdf54e3b346984f5.png",
+    "static/media/mart-main.png": "/static/media/mart-main.45e5e99ef75562211a72.png",
     "static/media/split_view.jpg": "/static/media/split_view.e592af089154de85d24c.jpg",
+    "static/media/tawjeeh2.png": "/static/media/tawjeeh2.b91f3cab1e70d4350fe8.png",
     "static/media/student.png": "/static/media/student.cb020d0a8c7e9f6b7947.png",
     "static/media/car-login.png": "/static/media/car-login.06e0eb345e2c9a6e7f34.png",
     "static/media/appointment-student.png": "/static/media/appointment-student.73eb29e7c099e3b5b565.png",
-    "static/media/Kabbani-Tameem-Resume-1.3.pdf": "/static/media/Kabbani-Tameem-Resume-1.3.bcd1c422cdb6efe0f2c0.pdf",
+    "static/media/Kabbani-Tameem-Resume-1.3.pdf": "/static/media/Kabbani-Tameem-Resume-1.3.4ef72d424670b18dd740.pdf",
     "static/media/appointment-login.png": "/static/media/appointment-login.663dfa35e3d536b8fa6a.png",
+    "static/media/mart-admin.png": "/static/media/mart-admin.ee3fe0597e59443b540f.png",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/car-trip-create.png": "/static/media/car-trip-create.181103f92f7f517add8a.png",
     "static/media/avatar.png": "/static/media/avatar.535915253af99aa1052a.png",
@@ -28,13 +35,13 @@
     "static/media/gulf_diac.png": "/static/media/gulf_diac.ab6fd8d9dfc6d6d70d89.png",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.102661a1.css.map": "/static/css/main.102661a1.css.map",
-    "main.b51c5175.js.map": "/static/js/main.b51c5175.js.map",
+    "main.07c35cb5.css.map": "/static/css/main.07c35cb5.css.map",
+    "main.7534eb3d.js.map": "/static/js/main.7534eb3d.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.102661a1.css",
-    "static/js/main.b51c5175.js"
+    "static/css/main.07c35cb5.css",
+    "static/js/main.7534eb3d.js"
   ]
 }
