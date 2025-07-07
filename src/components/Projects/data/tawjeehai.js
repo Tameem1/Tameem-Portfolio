@@ -9,6 +9,7 @@ const tawjeehaiProject = {
   description: "A modern, bilingual (Arabic-English) AI consulting and development company website built with a full-stack TypeScript architecture. The platform showcases AI services, captures contact inquiries, and provides an engaging user experience with animated neural network visualizations and particle effects.",
   fullDescription: "TawjeehAI is a comprehensive AI consulting and development platform that serves as the digital presence for an innovative AI company. The platform is built with a modern full-stack TypeScript architecture, featuring bilingual support (Arabic-English) with complete RTL layout implementation. The website showcases AI services through interactive neural network animations and particle effects, creating an engaging and professional user experience. The platform includes a functional contact system with email notifications, responsive design for all devices, and modern UI components built with shadcn/ui and Tailwind CSS.",
   imgPath: tawjeehai_main,
+  demoLink: "https://tawjeehai.com",
   technologies: [
     "React 18", "TypeScript", "Wouter", "Tailwind CSS", "shadcn/ui", "TanStack Query", "i18next", "Vite", "Node.js", "Express.js", "PostgreSQL", "Drizzle ORM", "Nodemailer", "Zod", "tsparticles", "Radix UI"
   ],

@@ -5,10 +5,10 @@ import ProjectDetail from "./ProjectDetail";
 import Particle from "../Particle";
 import map from "../../Assets/Projects/map.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import student_resources from "../../Assets/Projects/student.png";
+
 import gulf_diac from "../../Assets/Projects/gulf_diac.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import split_view from "../../Assets/Projects/split_view.jpg";
+
 import carpool_img from "../../Assets/Projects/readme-img.png";
 import carpoolProject from "./data/carpool";
 import appointmentProject from "./data/appointment-system";
@@ -118,135 +118,7 @@ function Projects() {
         }
       ],
       isBlog: false
-    },
-    {
-      id: 3,
-      title: "SplitView App",
-      description: "An innovative iOS app that enables users to run up to 6 web applications simultaneously in a split-screen interface, solving the iPhone's multitasking limitations. Built with SwiftUI and Swift.",
-      fullDescription: "SplitView is an innovative iOS application that addresses the limitation of multitasking on iPhones by allowing users to run up to 6 different web applications simultaneously in a split-screen interface. Built with SwiftUI, the app features a clean, intuitive interface that maximizes screen real estate while maintaining usability. The app includes custom gesture controls, dynamic layout adjustment, and optimized memory management to ensure smooth performance across different web applications.",
-      imgPath: split_view,
-      ghLink: "https://github.com/Tameem1/SplitView",
-      demoLink: "https://apps.apple.com/splitview", // Example demo link
-      technologies: ["Swift", "SwiftUI", "WebKit", "iOS", "Xcode", "Core Graphics"],
-      features: [
-        "Support for up to 6 simultaneous web apps",
-        "Intuitive split-screen interface",
-        "Custom gesture controls for navigation",
-        "Dynamic layout adjustment",
-        "Bookmarks and favorites system",
-      ],
-      workflow: [
-        {
-          step: 1,
-          title: "App Launch & Setup",
-          description: "Launch SplitView and configure your preferred web applications for multitasking",
-          screenshot: {
-            src: split_view,
-            alt: "SplitView App Launch",
-            caption: "Clean app interface with easy setup for multiple web applications"
-          }
-        },
-        {
-          step: 2,
-          title: "Split-Screen Configuration",
-          description: "Choose from various layout options to arrange up to 6 web apps simultaneously",
-          screenshot: {
-            src: split_view,
-            alt: "Split-Screen Layout",
-            caption: "Flexible layout system supporting multiple web apps in split-screen mode"
-          }
-        },
-        {
-          step: 3,
-          title: "Gesture Navigation",
-          description: "Use intuitive gestures to switch between apps and adjust layouts dynamically",
-          screenshot: {
-            src: split_view,
-            alt: "Gesture Controls",
-            caption: "Smooth gesture-based navigation for seamless multitasking experience"
-          }
-        }
-      ],
-      achievements: [
-        "📱 Featured in App Store 'New Apps We Love'",
-        "⭐ 4.8/5 star rating with 1000+ reviews",
-        "📈 10,000+ downloads in first month",
-        "🎨 Apple Design Award nomination"
-      ],
-      screenshots: [
-        {
-          src: split_view,
-          alt: "SplitView App Interface",
-          caption: "Main interface showing 6 web apps running simultaneously"
-        }
-      ],
-      isBlog: false
-    },
-    {
-      id: 4,
-      title: "Syrian Student Resources App",
-      description: "This app organizes all resources a high school student could need in one place. The app is built using SwiftUI and Swift.",
-      fullDescription: "A comprehensive mobile application designed specifically for Syrian high school students to access educational resources, study materials, and academic support tools. The app consolidates textbooks, practice exams, video lectures, and study guides into a single, user-friendly platform. Features include offline content access, progress tracking, interactive quizzes, and a community forum for peer support. The app supports both Arabic and English languages and follows the Syrian national curriculum.",
-      imgPath: student_resources,
-      ghLink: "https://github.com/Tameem1/Syrian-Student-Guide",
-      technologies: ["Swift", "SwiftUI", "Core Data", "CloudKit", "iOS", "Firebase"],
-      features: [
-        "Complete Syrian curriculum coverage",
-        "Offline content access",
-        "Interactive practice tests",
-        "Progress tracking and analytics",
-        "Multi-language support (Arabic/English)",
-        "Community forum and chat",
-        "Study schedule planner"
-      ],
-      workflow: [
-        {
-          step: 1,
-          title: "User Registration & Setup",
-          description: "Students create accounts and select their grade level and subjects",
-          screenshot: {
-            src: student_resources,
-            alt: "Student Registration",
-            caption: "Easy onboarding process for Syrian students with curriculum selection"
-          }
-        },
-        {
-          step: 2,
-          title: "Resource Discovery",
-          description: "Browse comprehensive educational materials including textbooks, videos, and practice tests",
-          screenshot: {
-            src: student_resources,
-            alt: "Resource Library",
-            caption: "Extensive library of Syrian curriculum-aligned educational resources"
-          }
-        },
-        {
-          step: 3,
-          title: "Progress Tracking",
-          description: "Monitor learning progress with analytics and interactive quizzes",
-          screenshot: {
-            src: student_resources,
-            alt: "Progress Dashboard",
-            caption: "Comprehensive progress tracking and performance analytics"
-          }
-        }
-      ],
-      achievements: [
-        "🎓 Used by 5,000+ Syrian students",
-        "🌟 Endorsed by Syrian Ministry of Education",
-        "📚 10,000+ educational resources available",
-        "🤝 Partnership with 50+ schools"
-      ],
-      screenshots: [
-        {
-          src: student_resources,
-          alt: "Syrian Student Resources App",
-          caption: "Main dashboard showing available study materials and progress"
-        }
-      ],
-      isBlog: false
-    },
-    
+    }
   ];
 
   const handleViewDetails = (project) => {
